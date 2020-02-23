@@ -1,0 +1,58 @@
+.jumbotron{
+    border-radius: 0px;
+    margin: 0px;
+}
+#btn5:hover{
+    color: black;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#contact-us{
+    color: black;
+}
+
+.card{
+    border: none;
+    background: transparent;
+}
+.card-header{
+    border: none;
+    background: transparent;
+
+}
+.card-body{
+    border: none;
+    background: transparent;
+}
+#icon{
+    font-size: 55px;
+    float: left;
+    margin: 0px 10px;
+}
+input{
+    margin:15px 0px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1189px){
+    #field1 {
+        width: 360px;
+    }}
+#icon{
+    font-size: 55px;
+    float: left;
+    margin: 0px 10px;
+}
+#list li{
+    display: inline-block;
+    padding: 5px;
+}
+#list a{
+    text-decoration: none;
+    color:white;
+}
+#li-list li{
+    display: block;
+}

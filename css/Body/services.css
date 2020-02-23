@@ -1,0 +1,44 @@
+#car-repair{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../Images/car-repair.jpg');
+    /* Set a specific height */
+    min-height: 400px;
+    margin: 0;
+    padding: 0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero-text{
+    text-align: left;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: -5%;
+    left: 12%;
+    transform: translate(0%,100%);
+    border: 1px solid white;
+}
+#car-wash{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../Images/car-wash.jpg');
+    /* Set a specific height */
+    min-height: 400px;
+    margin: 0;
+    padding: 0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero-text-1 {
+    text-align: left;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: -5%;
+    left: 13%;
+    transform: translate(0%,100%);
+    border: 1px solid white;
+}

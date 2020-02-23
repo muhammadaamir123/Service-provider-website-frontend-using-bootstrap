@@ -1,0 +1,15 @@
+.container-fluid h1 {
+    padding: 25px 25px;
+}
+.card{
+    border: none;
+    background: none;
+}
+.card-body{
+    border: none;
+    background: none;
+}
+.card-header{
+    border: none;
+    background: none;
+}

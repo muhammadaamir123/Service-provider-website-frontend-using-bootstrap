@@ -1,0 +1,57 @@
+.langing-page{
+    height: 100%;
+}
+section{
+    background: #28A745;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+}
+.container-fluid{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.heading-left{
+    margin-top: 128px;
+    color: white;
+    text-align: left;
+}
+span{
+    font-size: 36px;
+}
+#regist-heading{
+    font-size: 36px;
+}
+.new-landing form{
+    box-shadow: 0 4px 8px 0 rgba(82,97,115,.18);
+    border-radius: 8px;
+    margin-top: 104px;
+    margin-bottom: -40px;
+    padding: 32px;
+    background: white;
+}
+
+@media screen and (min-height: 992px) {
+    .container-fluid{
+        width: 970px;
+    }
+}
+@media screen and (min-height: 768px) {
+    .container-fluid{
+        width: 750px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .new-landing form {
+        margin-top: 32px;
+        padding: 32px 20px 20px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .container-fluid {
+        width: 1170px;
+    }
+}

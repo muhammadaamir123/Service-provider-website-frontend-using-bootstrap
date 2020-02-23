@@ -1,0 +1,16 @@
+#icon{
+    font-size: 55px;
+    float: left;
+    margin: 0px 10px;
+}
+#list li{
+    display: inline-block;
+    padding: 5px;
+}
+#list a{
+    text-decoration: none;
+    color:white;
+}
+#li-list li{
+    display: block;
+}
